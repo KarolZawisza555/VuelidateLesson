@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f2f2f2;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    color: #333;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  
+  a {
+    color: #0072c6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  
+  .header h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 0.5em;
+  }
+  
+  .header p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  button {
+    background-color: #333;
+    margin-right: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  button:active {
+    background-color: #222;
+  }
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 3px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 1em;
+}
+
+pre {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+    line-height: 1.5;
+    color: #333;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  table {
+    max-width: 800px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
